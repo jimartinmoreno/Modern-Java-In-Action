@@ -1,13 +1,13 @@
 package modernjavainaction.appc;
 
-import modernjavainaction.chap06.Dish;
+import modernjavainaction.chap06.streams.collectingdata.Dish;
 
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Stream;
 
 import static java.util.stream.Collectors.*;
-import static modernjavainaction.chap06.Dish.menu;
+import static modernjavainaction.chap06.streams.collectingdata.Dish.menu;
 
 public class StreamForkerExample {
 
